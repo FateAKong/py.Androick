@@ -1,0 +1,18 @@
+DESCRIPTION
+Androick will help you in your forensics analysis on android.
+put the package name in argument of the application, and the program will download automatically all datas and apk file stored in your android device.
+furthermore, after downloading datas, the application will search and extract (in CSV format) all databases.
+
+
+HOW TO USE
+	1) show help message
+		./androick.py -h
+
+	2) show informations
+		./androick.py -a
+
+	3) find package name
+		./androick.py [-v] -f <Part of package name>
+
+	4) download all related things of application
+		./androick.py [-v] PACKAGE_NAME_1 PACKAGE_NAME_2 ETC...
